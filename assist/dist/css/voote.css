@@ -1,0 +1,125 @@
+.formImg{
+    width: 100%;
+    height: 100%;
+}
+
+.newQues{
+    height: 500px;
+    text-align-last: center;
+    padding: 10px;
+}
+
+.newQues>h1{
+    height: 100%;
+    padding-top: 200px;
+    text-align: center;
+    border: dashed;
+}
+
+.newQues>.row{
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.contentNew{
+    background-color: #f8e3c4;
+    box-shadow: 13px 13px 20px grey;
+}
+.hidden{
+    display: none;
+}
+
+/* Fullscreen mode css (start) */
+.modal-dialog {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width:none !important;
+
+}
+
+.modal-content {
+    height: auto !important;
+    min-height: 100% !important;
+    border-radius: 0 !important;
+    background-color: #ececec !important
+}
+
+.modal-header {
+    border-bottom: 1px solid #9ea2a2 !important;
+}
+
+.modal-footer {
+    border-top: 1px solid #9ea2a2 !important;
+}
+/* Fullscreen mode css (end) */
+
+
+.changePass{
+    overflow-x: unset !important;
+    overflow-y: unset !important;
+    width: auto;
+    height: auto;
+    left: 47%;
+}
+
+.wrong-ms{
+    background-color: indianred;
+    border-radius: 20px;
+    font-size: larger;
+    padding: 5px;
+    color: beige;
+}
+
+.right-ms{
+    background-color: #5ccd65;
+    border-radius: 20px;
+    font-size: larger;
+    padding: 5px;
+    color: #46463a;
+}
+.faceAnswer{
+    transform: scale(.5);
+    font-size: 60pt;
+}
+
+[data-title]:hover::before {
+    content: attr(data-title);
+    position: absolute;
+    display: inline-block;
+    padding: 3px 6px;
+    border-radius: 2px;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    z-index: 5;
+    font-family: sans-serif;
+    white-space: nowrap;
+    margin-top: 30pt;
+}
+
+[data-title]:hover::after {
+    content: '';
+    margin-top: -18px;
+    margin-left: 16px;
+    position: absolute;
+    left: 8px;
+    display: inline-block;
+    color: #fff;
+    border: 8px solid transparent;
+    border-bottom: 8px solid #000;
+}
+
+.creaetNewBut{
+    background-color: #3b1d8230;
+    border-radius: 20px;
+    transition: all .5s;
+}
+
+.creaetNewBut:hover{
+    background-color: #1d822538;
+    border-radius: 20px 0px;
+    cursor: url(../../img/refresh.png),auto;
+}
